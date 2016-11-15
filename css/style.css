@@ -1,174 +1,201 @@
-body{
-	font-size: 16px;
-	color: #fff;
-	background-color: #61122f;
-	font-family: 'Oxygen', sans-serif;
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
 }
+
 /** HEADER **/
 #header-nav {
-	background-color: #f6b319;
-	border-radius: 0;
-	border: 0;
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
 }
-#logo-img{
-	background: url('../images/restaurante-logo.jpg') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0;
+
+#logo-img {
+    background: url('../images/restaurante-logo.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
 }
-.navbar-brand{
-	padding-top:25px;
+
+.navbar-brand {
+    padding-top: 25px;
 }
-.navbar-brand h1{/* Restaurant name*/
-	font-family: 'Lora', serif;
-	color: #557c3e;
-	font-size: 1.5em;
-	text-transform: uppercase;/*tranforma todas en mayusculas*/
-	font-weight: bold;/*resalta texto*/
-	text-shadow: 1px 1px 1px #222;/*le da relieve y colo*/
-	margin-top: 0;
-	margin-bottom: 0; /*establece la anchura del margen inferior*/
+
+.navbar-brand h1 { /* Restaurant name*/
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase; /*tranforma todas en mayusculas*/
+    font-weight: bold; /*resalta texto*/
+    text-shadow: 1px 1px 1px #222; /*le da relieve y colo*/
+    margin-top: 0;
+    margin-bottom: 0; /*establece la anchura del margen inferior*/
     line-height: .75; /*margen de altura*/
 }
-.navbar-brand a:hover, .navbar-brand a:focus {/*Ningun tipo de subrayado de la decoracion del enlace solo que se clicable peron no link*/
-	text-decoration: none;
+
+.navbar-brand a:hover, .navbar-brand a:focus { /*Ningun tipo de subrayado de la decoracion del enlace solo que se clicable peron no link*/
+    text-decoration: none;
 }
-.navbar-brand p {/* Kosher cert*/
-	color: #000;
-	text-transform: uppercase;
-	font-size: .7em;/*tamaño de fuente*/
-	margin-top: 15px;
+
+.navbar-brand p { /* Kosher cert*/
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em; /*tamaño de fuente*/
+    margin-top: 15px;
 }
-.navbar-brand p span {/* Star-K*/
-	vertical-align: middle;
+
+.navbar-brand p span { /* Star-K*/
+    vertical-align: middle;
 }
- #nav-list{
- 	margin-top: 10px;
- }
- #nav-list a{
- 	color: #951c49;
- 	text-align: center;
- }
- #nav-list a:hover { 
- 	background: #E7E7E7;
- }
- #nav-list a span { /*baja el menu*/
- 	font-size: 1.8em;
- }
- #phone{
- 	margin-top: 5px;
- }
- #phone a { /* Phone numbre*/
- 	text-align: right;
- 	padding: 0;
- }
- #phone div { /* We Deliver*/
- 	color: #557c3e;
- 	text-align: right;
- 	padding-right: 15px;/*esto me alinea el texto di derecha hacia al centro dependieno lo que le de al padding*/
- }
- .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
- 	border: 1px solid #61122f;
- }
- .navbar-header button.navbar-toggle {
- 	clear: both;/*mueve el elemento debajo de los elemntos flotantes*/
- 	margin-top: -30px; 
- }
- .jumbotron{
- 	text-align: -webkit-center;
- }
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span { /*baja el menu*/
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a { /* Phone numbre*/
+    text-align: right;
+    padding: 0;
+}
+
+#phone div { /* We Deliver*/
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px; /*esto me alinea el texto di derecha hacia al centro dependieno lo que le de al padding*/
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both; /*mueve el elemento debajo de los elemntos flotantes*/
+    margin-top: -30px;
+}
+
+.jumbotron {
+    text-align: -webkit-center;
+}
 
 /* END HEADER */
 /******* Large devices only *******/
-@media (min-width: 1200px){
-	.jumbotron{
-	background: url('../images/Restaurant_1200.jpeg') no-repeat;
-	height: 675px;
-	box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
-	border: 2px solid #3F0C1F; /*el gruesor del borde*/
+@media (min-width: 1200px) {
+    .jumbotron {
+        background: url('../images/Restaurant_1200.jpeg') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
+        border: 2px solid #3F0C1F; /*el gruesor del borde*/
 
+    }
 }
 
 /******* Meduim devices only *******/
-@media (min-width: 992px) and (max-width: 1199px){
-	/* HEADER */
-	#logo-img{
-		background: url('../images/restaurante-logo.jpg') no-repeat;
-		width: 100px;
-		height: 100px;
-		margin: 5px 5px 5px 0;
-	}
-/* End Header */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* HEADER */
+    #logo-img {
+        background: url('../images/restaurante-logo.jpg') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
 
-/* Home Page */
-	.jumbotron{
-		background: url('../images/Restaurant_992.jpeg') no-repeat;
-		height: 558px;
-		box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
-		border: 2px solid #3F0C1F; /*el gruesor del borde*/
+    /* End Header */
+    /* Home Page */
+    .jumbotron {
+        background: url('../images/Restaurant_992.jpeg') no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
+        border: 2px solid #3F0C1F; /*el gruesor del borde*/
 
-	}
+    }
 }
 
 /******* Small devices only *******/
-@media (min-width: 768px) and (max-width: 991px){
-	.jumbotron{
-	background: url('../images/Restaurant_768.jpeg') no-repeat;
-	height: 432px;
-	box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
-	border: 2px solid #3F0C1F; /*el gruesor del borde*/
-	
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+        background: url('../images/Restaurant_768.jpeg') no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
+        border: 2px solid #3F0C1F; /*el gruesor del borde*/
+
+    }
 }
+
 /******* Extra Small devices only *******/
 @media (max-width: 767px) {
-	/*HEADER */
-	.navbar-brand {
-		padding-top: 10px;
-		height: 80px;
-	}
-	.navbar-brand h1 {/* Restaurant name*/
-		padding-top: 10px;
-		font-size: 5vw;
-	}
-	.navbar-brand p {/* Kosher cert */
-		font-size: .6em;
-		margin-top: 12px;
-	}
-	.navbar-brand p img {/* Star-K */
-		height: 20px;
-	}
-	#collapsable-nav a { /*Collapsable nav menu glyph*/
-		font-size: 1.2em;
-	}
-	#collapsable-nav a span{ 
-		font-size: 1em;
-		margin-right: 5px;
-	}
-	#call-btn > a {
-		font-size: 1.5em;
-		display: block;
-		margin: 0 20px;
-		padding: 10px;
-		border: 2px solid #fff;
-		background-color: #f6b319;
-		color: #951c49;
-	}
-	#xs-deliver {
-		margin-top: 5px;
-		font-size: .7em;
-		letter-spacing: .1em;
-		text-transform: uppercase;
-	}
-	/*End Header*/
+    /*HEADER */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
 
-	/* Home Page**/
-	.container .jumbotron {
-		margin-top: 30px;
-		padding: 0;
-		box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
-		border: 1px solid #3F0C1F; 
+    .navbar-brand h1 { /* Restaurant name*/
+        padding-top: 10px;
+        font-size: 5vw;
+    }
 
-	}
+    .navbar-brand p { /* Kosher cert */
+        font-size: .6em;
+        margin-top: 12px;
+    }
+
+    .navbar-brand p img { /* Star-K */
+        height: 20px;
+    }
+
+    #collapsable-nav a { /*Collapsable nav menu text*/
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span { /*Collapsable nav menu glyph*/
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    /*End Header*/
+    /* Home Page**/
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+        box-shadow: 0 0 50px #3F0C1F; /* la sombre que se le da*/
+        border: 1px solid #3F0C1F;
+
+    }
 }
  
 
